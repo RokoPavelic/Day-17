@@ -1,0 +1,14 @@
+.title {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.date {
+  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
