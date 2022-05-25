@@ -13,8 +13,8 @@ const loadData = async () => {
     departures = await res.json();
     console.log(departures);
   } finally {
-    const loading = document.querySelector(".loader");
-    loading.style.display = "none";
+    const loader = document.querySelector(".loader");
+    loader.style.display = "none";
     departures.forEach((train) => {
       container.innerHTML += `<div class="depContainer"> 
       <p class = "train"> 
